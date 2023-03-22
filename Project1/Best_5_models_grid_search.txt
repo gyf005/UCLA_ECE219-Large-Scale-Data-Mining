@@ -1,0 +1,62 @@
+5 Best Models' Parameters
+
+best 1 model:(stem)
+{'classifier': LogisticRegression(C=100, penalty='l1', random_state=42, solver='liblinear'), 'convector__min_df': 3, 
+'dim_reduce': TruncatedSVD(n_components=80, random_state=0)}
+
+best 2 model:(lemma)
+{'classifier': LogisticRegression(C=100, penalty='l1', random_state=42, solver='liblinear'), 'convector__min_df': 5, 
+'dim_reduce': TruncatedSVD(n_components=80, random_state=0)}
+
+best 3 model:(stem)
+{'classifier': LogisticRegression(C=100, penalty='l1', random_state=42, solver='liblinear'), 'convector__min_df': 3, 
+'dim_reduce': NMF(n_components=80, random_state=0)}
+
+best 4 model:(lemma)
+{'classifier': LogisticRegression(C=10000, random_state=42, solver='liblinear'), 'convector__min_df': 5, 
+'dim_reduce': TruncatedSVD(n_components=80, random_state=0)}
+
+best 5 model:(lemma)
+{'classifier': LogisticRegression(C=100, penalty='l1', random_state=42, solver='liblinear'), 'convector__min_df': 3, 
+'dim_reduce': TruncatedSVD(n_components=80, random_state=0)}
+
+
+
+
+5 Best Models' Performance on the testing data
+
+Best 1 confusion matrix:  
+[[256   7]
+ [ 15 352]]
+Best 1 accuracy score:  0.9650793650793651
+Best 1 recall score:  0.9591280653950953
+Best 1 precision score:  0.9805013927576601
+Best 1 f1 score:  0.9696969696969696
+Best 2 confusion matrix:  
+[[258   5]
+ [ 15 352]]
+Best 2 accuracy score:  0.9682539682539683
+Best 2 recall score:  0.9591280653950953
+Best 2 precision score:  0.9859943977591037
+Best 2 f1 score:  0.9723756906077348
+Best 3 confusion matrix:  
+[[260   3]
+ [ 15 352]]
+Best 3 accuracy score:  0.9714285714285714
+Best 3 recall score:  0.9591280653950953
+Best 3 precision score:  0.9915492957746479
+Best 3 f1 score:  0.9750692520775622
+Best 4 confusion matrix:  
+[[258   5]
+ [ 15 352]]
+Best 4 accuracy score:  0.9682539682539683
+Best 4 recall score:  0.9591280653950953
+Best 4 precision score:  0.9859943977591037
+Best 4 f1 score:  0.9723756906077348
+Best 5 confusion matrix:  
+[[258   5]
+ [ 14 353]]
+Best 5 accuracy score:  0.9698412698412698
+Best 5 recall score:  0.9618528610354223
+Best 5 precision score:  0.9860335195530726
+Best 5 f1 score:  0.9737931034482759
